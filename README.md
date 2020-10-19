@@ -13,6 +13,8 @@ Use tesseract and jTessBoxEditor to make a traineddata for pytesseract using on 
 
 
 * 前置作業: 針對要解析的驗證碼圖片進行小量下載，至少要有足夠的範本提高辨識的成功率。
+* 文件名稱說明: 以下的圖片等..檔名，皆會使用前綴詞 `test` 命名作為開頭，例如: test.tif，若要參照使用則可以依據自己所想的名稱命名。
+
 
 
 ## 1. 首先需要安裝: jTessBoxEditor
