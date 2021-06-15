@@ -60,7 +60,7 @@ Use tesseract and jTessBoxEditor to make a traineddata for pytesseract using on 
 ## 6. 生成 font_properties.txt 檔案
        先在該圖片路徑內，生成一個font_properties.txt的檔案，檔案內容則是 [your tiff] 0 0 0 0 0 後存檔。
 
-       *  註: your tiff 是你TIFF檔案的名稱(不需要副檔名 例如 test.tiff 只要。
+       *  註: your tiff 是你TIFF檔案的名稱(不需要副檔名 例如 test.tiff 只要打上test即可)。
           那5個0 依序的含意是: <fontname> <italic> <bold> <fixed> <serif> <fraktur> 為字體的參數。
           
 
