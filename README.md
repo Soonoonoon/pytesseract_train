@@ -107,3 +107,8 @@ Use tesseract and jTessBoxEditor to make a traineddata for pytesseract using on 
 
     若依舊出現問題，建議鍵入:pip install -U git+https://github.com/madmaze/pytesseract.git 
     獲取最新版的pytesseract，有一定機率可以解決這個問題。
+新增問題 若出現.exe 相關問題: 
+    必須先去 pytesseract.py 內找到  tesseract_cmd = "" 這一行，
+    將""裡面的路徑改成電腦上呼叫tesseract.exe的路徑 
+
+    EX: tesseract_cmd = 'D:\\JtessBox\\jTessBoxEditor\\tesseract-ocr\\tesseract.exe'
