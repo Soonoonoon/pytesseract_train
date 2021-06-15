@@ -89,7 +89,7 @@ Use tesseract and jTessBoxEditor to make a traineddata for pytesseract using on 
 
 ## 13. 合併生成 traineddata
 
-   ##### 鍵入:  "D:\JtessBox\jTessBoxEditor\tesseract-ocr\combine_tessdata.exe" test.
+   ##### 鍵入:  "D:\JtessBox\jTessBoxEditor\tesseract-ocr\combine_tessdata.exe" test.  <<<注意 test.  小數點 必須包含
        訓練的過程會產生:
        1.normproto
        2.inttemp
