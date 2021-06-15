@@ -48,6 +48,12 @@ Use tesseract and jTessBoxEditor to make a traineddata for pytesseract using on 
        * 註:  1.若是無法正常成功可將  tesseract.exe  換成絕對路徑>  ex: "D:\jTessBoxEditor\tesseract-ocr\tesseract.exe" 而後面代碼後續接不使用絕對路徑，因為cmd所在文件夾會先切到該資料夾 (切到資料夾方式 cd /d [資料絕對路徑])
       
               2.若出現 -psm 7 相關代碼錯誤，可將-psm7 改成 --psm7
+              3.生成畫面會有 Page 96
+                            Page 97
+                            Page 98
+                            Page 99...依照你有幾張圖片,相對出現序列
+                            若出現錯誤訊息 可以更改test 的名稱試試看
+                        
 ## 5. 圖片校正
        打開 jTessBoxEditor.jar，點擊 Box Editor，在下方點選Open，找到稍早生成的Tiff，載入後能夠對每個字元進行校正並存檔，有幾張圖片下方的Page就有幾頁。(box檔案和tif檔案需要在同一個資料夾下)
 
